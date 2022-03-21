@@ -8,6 +8,10 @@ Authors@R:
              role = c("aut", "cre"),
              email = "yannick.marcon@obiba.org",
              comment = c(ORCID = "0000-0003-0138-2023")),
+      person(given = "Sido",
+             family = "Haakma",
+             role = c("aut", "cre"),
+             email = "s.haakma@umcg.nl"),
       person("OBiBa group",
              role="cph",
              email="info@obiba.org"))
@@ -22,7 +26,7 @@ Depends:
 Suggests:
     testthat,
     knitr
-BugReports: https://github.com/obiba/s3.resourcer
+BugReports: https://github.com/sidohaakma/s3.resourcer
 RoxygenNote: 7.1.2
 VignetteBuilder: knitr
 Encoding: UTF-8
