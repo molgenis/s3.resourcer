@@ -18,8 +18,7 @@ Depends:
     R6,
     httr,
     resourcer (>= 1.2),
-    aws.s3,
-    sparklyr
+    aws.s3
 Suggests:
     testthat,
     knitr
