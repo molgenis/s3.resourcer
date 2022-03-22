@@ -1,6 +1,6 @@
-Package: s3.resourcer
+Package: s3.file.resourcer
 Type: Package
-Title: S3 Resource Resolver
+Title: S3 File Resource Resolver
 Version: 1.0.0
 Authors@R:
     c(person(given = "Yannick",
@@ -11,11 +11,12 @@ Authors@R:
       person(given = "Sido",
              family = "Haakma",
              role = c("aut"),
-             email = "s.haakma@umcg.nl"),
+             email = "s.haakma@umcg.nl",
+             comment = c(ORCID = "0000-0003-1278-9144")),
       person("OBiBa group",
              role="cph",
              email="info@obiba.org"))
-Description: This package uses S3 compatible resources, such as Amazon Web Services S3 or minio object stores.
+Description: This package uses S3 compatible resources, such as Amazon Web Services S3 or Minio object stores.
 License: LGPL (>= 2.1)
 LazyData: true
 Depends:
@@ -26,7 +27,7 @@ Depends:
 Suggests:
     testthat,
     knitr
-BugReports: https://github.com/sidohaakma/s3.resourcer
+BugReports: https://github.com/molgenis/s3.resourcer
 RoxygenNote: 7.1.2
 VignetteBuilder: knitr
 Encoding: UTF-8

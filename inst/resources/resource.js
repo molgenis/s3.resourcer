@@ -503,9 +503,7 @@ var s3_resourcer = {
       "s3-http-rds-file": function(name, params, credentials) {
           return toRDSFormat(toHttpS3Resource(name, params, credentials));
       },
-      "s3-http-tidy-file": toHttpS3Resource,
-      "s3-spark": toSparkResource,
-      "s3-http-spark": toHttpS3SparkResource
+      "s3-http-tidy-file": toHttpS3Resource
     };
 
     // Check if there is a resource factory function for the requested resource form type
